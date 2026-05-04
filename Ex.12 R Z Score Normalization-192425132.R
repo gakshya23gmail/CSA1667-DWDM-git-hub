@@ -1,0 +1,12 @@
+data <- c(10, 20, 30, 40, 50)
+mean_val <- mean(data)
+sd_val <- sd(data)
+z_scores <- (data - mean_val) / sd_val
+print("Original Data:")
+print(data)
+print("Mean:")
+print(mean_val)
+print("Standard Deviation:")
+print(sd_val)
+print("Z-score Normalized Data:")
+print(z_scores)
